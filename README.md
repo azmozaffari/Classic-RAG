@@ -58,6 +58,8 @@ Feel free to let me know what occasion you're dressing for, and I can help refin
 
 #### The Image generator API respond_1
 
+![](./outfit1.png)
+
 
 
 

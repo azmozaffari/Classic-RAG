@@ -9,17 +9,18 @@ For the search we only use the image and for the outfit suggestion we use the it
 We also use image-generator-API to generate the suggested outfits to give a better vision to the customer.
 
 
-## Data Encoding for the Vector Databes
+## Data Encoding for the Vector Database
 
 We use CLIP for encoding the images and then save them in our  Qdrant Vectore Database.
 Qdrant has the feature to accept the data in batch mode which increase the speed of loading the data in the dataset.
 Later, the text prompt also would be encoded using CLIP model and is used for similarity matching in VD.
 
 
-## Dataset 
+## Fashion Dataset 
 
 In this project we have used [Fashion Product Images (Small) from Kaggle website](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small). It contains 44447 images and a CSV file for the items attributes.
 Build img and csv folders in the main folder of the project and download the images and styles.csv file in these two folders respectively.
+
 
 ## Some Examples
 

@@ -20,7 +20,14 @@ Later, the text prompt also would be encoded using CLIP model and is used for si
 
 In this project we have used [Fashion Product Images (Small) from Kaggle website](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small).
 
-## Some Samples
+## Some Examples
+
+The customer would prompt: I'm searching for a silver women watch
+
+and also prompt her body type:  I'm a black short women
+
+The item that is found in the dataset is: 
+
 
 
 

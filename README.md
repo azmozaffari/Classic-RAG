@@ -99,6 +99,13 @@ This outfit is not only stylish but also comfortable for a summer outing. Enjoy 
 
 
 
+## Future Features
+
+The provided results by the image generator api is not look a like the serached item, in the next version we can finetune our image generator with the methods like [DreamBooth](https://dreambooth.github.io/
+) and few examples of retrieved item, and then have more related generated images.
+
+
+# How to Run the Code!
 
 
 

@@ -63,6 +63,14 @@ Feel free to let me know what occasion you're dressing for, and I can help refin
 
 
 
+#### Customer prompt_2
+The customer prompt:  **I'm searching for a men summer jean!**
+
+and also her body style prompt:  **I'm a white tall man.**
+
+The item that is found in the dataset is ![](./result.jpg) 
+
+
 
 
 

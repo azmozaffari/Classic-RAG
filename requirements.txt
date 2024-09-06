@@ -1,0 +1,8 @@
+pandas
+ipykernel
+ipywidgets
+qdrant-client
+openai
+clip
+torch
+pillow

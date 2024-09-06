@@ -18,7 +18,7 @@ Later, the text prompt also would be encoded using CLIP model and is used for si
 
 ## Fashion Dataset 
 
-In this project we have used [Fashion Product Images (Small) from Kaggle website](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small). It contains 44447 images and a CSV file for the items attributes.
+In this project we used [Fashion Product Images (Small) from Kaggle website](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small). It contains 44447 images and a CSV file for the items attributes.
 Build img and csv folders in the main folder of the project and download the images and styles.csv file in these two folders respectively.
 
 

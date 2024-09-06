@@ -18,7 +18,7 @@ Later, the text prompt also would be encoded using CLIP model and is used for si
 
 ## Dataset 
 
-In this project we have used [Fashion Product Images (Small) from Kaggle website] (https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small).
+In this project we have used [Fashion Product Images (Small) from Kaggle website](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small).
 
 ## Some Samples
 

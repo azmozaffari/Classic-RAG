@@ -11,9 +11,9 @@ We also use image-generator-API to generate the suggested outfits to give a bett
 
 ## Data Encoding for the Vector Database
 
-We use CLIP for encoding the images and then save them in our  Qdrant Vectore Database.
-Qdrant has the feature to accept the data in batch mode which increase the speed of loading the data in the dataset.
-Later, the text prompt also would be encoded using CLIP model and is used for similarity matching in VD.
+We use Image_CLIP_Encoder for encoding the images and then save them in our  Qdrant Vectore Database.
+Qdrant has the feature to accept the data in batch mode which increase the speed of loading the data in the database.
+Later, the text prompt also is encoded by Text_CLIP_Encoder and is used for similarity matching and ranking in Qdrant VD.
 
 
 ## Fashion Dataset 

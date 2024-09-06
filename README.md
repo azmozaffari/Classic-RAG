@@ -26,7 +26,7 @@ The customer would prompt: I'm searching for a silver women watch
 
 and also prompt her body type:  I'm a black short women
 
-The item that is found in the dataset is !(./result.jpg) 
+The item that is found in the dataset is ![](./result.jpg) 
 
 
 

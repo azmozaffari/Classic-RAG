@@ -1,31 +1,31 @@
-# RAG for a Fashion Website
+# RAG for an Online Fashion Store
 
 ## Project Description
 
 
-Consider a fashion brand’s website where a customer can describe the item they’re looking for. Using only the images from the brand’s catalog, the site can suggest the best matches to their description.
-In this project, we will create a Retrieval-Augmented Generation (RAG) system that allows customers to search for items within a fashion image dataset from a retail website. Additionally, the system will offer outfit suggestions based on the features of the items that are saved in extra CSV file to help customers create the best possible look.
-For the search we only use the image and for the outfit suggestion we use the item attributes and the customer preferences to ask the LLM API for returning the best outfit suggestion,
+Consider a fashion brand’s website where customers can describe the item they’re looking for. Using only the images from the brand’s catalog, the site can suggest the best matches to their description.
+In this project, we will create a Retrieval-Augmented Generation (RAG) system that allows customers to search for items within a fashion image dataset from a retail website. Additionally, the system will offer outfit suggestions based on the features of the items that are saved in an extra CSV file to help customers create the best possible look.
+For the search, we only use the image and for the outfit suggestion we use the item attributes and the customer preferences to ask the LLM API to return the best outfit suggestion,
 We also use image-generator-API to generate the suggested outfits to give a better vision to the customer.
 
 
 ## Data Encoding for the Vector Database
 
-We use Image_CLIP_Encoder for encoding the images and then save them in our  Qdrant Vectore Database.
-Qdrant has the feature to accept the data in batch mode which increase the speed of loading the data in the database.
+We use Image_CLIP_Encoder for encoding the images and then saving them in our  Qdrant Vector Database.
+Qdrant has the feature to accept the data in batch mode which increases the speed of loading the data in the database.
 Later, the text prompt also is encoded by Text_CLIP_Encoder and is used for similarity matching and ranking in Qdrant VD.
 
 
 ## Fashion Dataset 
 
-In this project we used [Fashion Product Images (Small) from Kaggle website](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small). It contains 44447 images and a CSV file for the items attributes.
+In this project, we used [Fashion Product Images (Small) from Kaggle website](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small). It contains 44447 images and a CSV file for the items' attributes.
 Build img and csv folders in the main folder of the project and download the images and styles.csv file in these two folders respectively.
 
 
 ## Some Examples
 
 #### Customer prompt_1
-The customer prompt:  **I'm searching for a silver women watch!**
+The customer prompt:  **I'm searching for a silver women's watch!**
 
 and also her body style prompt:  **I'm a black short woman.**
 
@@ -66,7 +66,7 @@ Feel free to let me know what occasion you're dressing for, and I can help refin
 
 
 #### Customer prompt_2
-The customer prompt:  **I'm searching for a men summer jean!**
+The customer prompt:  **I'm searching for a men's summer jean!**
 
 and also his body style prompt:  **I'm a white tall man.**
 
@@ -103,8 +103,8 @@ This outfit is not only stylish but also comfortable for a summer outing. Enjoy 
 
 ## Future Features
 
-The provided results by the image generator api does not look a like the serached item, in the next version we can finetune our image generator with the methods like [DreamBooth](https://dreambooth.github.io/
-) with few examples of retrieved item, and then can produce more related generated images.
+The provided results by the image generator api do not look-alike the searched item, in the next version we can finetune our image generator with methods like [DreamBooth](https://dreambooth.github.io/
+) with a few examples of the retrieved item, and then can produce more related generated images.
 
 
 # How to Run the Code!
@@ -114,7 +114,11 @@ The provided results by the image generator api does not look a like the serache
 Create the virtual environment and install the dependencies:
 
 python3 -m venv .venv
+
+
 source .venv/bin/activate
+
+
 .venv/bin/pip install -r requirements.txt
 
 ### Run
